@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6160" started-at="2021-05-09T12:48:57 IST" finished-at="2021-05-09T12:49:03 IST">
+    <groups>
+    </groups>
+    <test name="Control Group Test" duration-ms="6160" started-at="2021-05-09T12:48:57 IST" finished-at="2021-05-09T12:49:03 IST">
+      <class name="com.nagarro.testcases.ControlGroupPageTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70]" name="openBrowser" is-config="true" duration-ms="9828" started-at="2021-05-09T12:48:47 IST" finished-at="2021-05-09T12:48:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="initTCReport()[pri:0, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70]" name="initTCReport" is-config="true" duration-ms="178" started-at="2021-05-09T12:48:57 IST" finished-at="2021-05-09T12:48:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTCReport -->
+        <test-method status="PASS" signature="beforeTestcaseExecution(java.lang.reflect.Method)[pri:0, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70]" name="beforeTestcaseExecution" is-config="true" duration-ms="1229" started-at="2021-05-09T12:48:57 IST" finished-at="2021-05-09T12:48:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.testcases.ControlGroupPageTest.carSelectMethod() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcaseExecution -->
+        <test-method status="PASS" signature="carSelectMethod()[pri:0, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70]" name="carSelectMethod" duration-ms="3905" started-at="2021-05-09T12:48:58 IST" finished-at="2021-05-09T12:49:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carSelectMethod -->
+        <test-method status="PASS" signature="afterTestCase(org.testng.ITestResult)[pri:0, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70]" name="afterTestCase" is-config="true" duration-ms="199" started-at="2021-05-09T12:49:02 IST" finished-at="2021-05-09T12:49:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=carSelectMethod status=SUCCESS method=ControlGroupPageTest.carSelectMethod()[pri:0, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method status="PASS" signature="beforeTestcaseExecution(java.lang.reflect.Method)[pri:0, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70]" name="beforeTestcaseExecution" is-config="true" duration-ms="97" started-at="2021-05-09T12:49:03 IST" finished-at="2021-05-09T12:49:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nagarro.testcases.ControlGroupPageTest.verifyControlGroupPageTitleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcaseExecution -->
+        <test-method status="PASS" signature="verifyControlGroupPageTitleTest()[pri:1, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70]" name="verifyControlGroupPageTitleTest" duration-ms="8" started-at="2021-05-09T12:49:03 IST" finished-at="2021-05-09T12:49:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyControlGroupPageTitleTest -->
+        <test-method status="PASS" signature="afterTestCase(org.testng.ITestResult)[pri:0, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70]" name="afterTestCase" is-config="true" duration-ms="104" started-at="2021-05-09T12:49:03 IST" finished-at="2021-05-09T12:49:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyControlGroupPageTitleTest status=SUCCESS method=ControlGroupPageTest.verifyControlGroupPageTitleTest()[pri:1, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70]" name="generateReports" is-config="true" duration-ms="390" started-at="2021-05-09T12:49:03 IST" finished-at="2021-05-09T12:49:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method status="PASS" signature="closeBroswer()[pri:0, instance:com.nagarro.testcases.ControlGroupPageTest@2758fe70]" name="closeBroswer" is-config="true" duration-ms="887" started-at="2021-05-09T12:49:03 IST" finished-at="2021-05-09T12:49:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+      </class> <!-- com.nagarro.testcases.ControlGroupPageTest -->
+    </test> <!-- Control Group Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+com\nagarro\page\Page.class
+com\nagarro\webpages\ControlgroupPage.class
+com\nagarro\supporters\PropertiesReader.class
+com\nagarro\page\BasePage.class
+com\nagarro\webpages\SelectablePage.class
+com\nagarro\webpages\DroppablePage.class
+com\nagarro\supporters\ExcelReader.class

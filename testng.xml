@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  verbose="10">
+  
+  
+  <!-- <listeners>
+  <listener class-name="com.nagarro.listeners.TestListenerTC">
+  </listener>
+</listeners>
+ -->
+
+<!-- <listeners>
+  <listener class-name="com.nagarro.listeners.ScreenShotAdapter">
+  </listener>
+</listeners>
+ -->
+
+
+<listeners>
+<listener class-name="com.nagarro.listeners.MyTransformer"></listener>
+</listeners>
+
+  <test thread-count="5" name="Control Group Test">
+  
+  
+  <parameter name = "brow" value = "chrome">
+  </parameter>
+ 
+  
+    <classes>
+      <class name="com.nagarro.testcases.ControlGroupPageTest"/>
+      <!-- <class name="com.nagarro.testcases.SelectableTest"/>
+      <class name="com.nagarro.testcases.DroppableTest"/> -->
+    </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
